@@ -27,6 +27,18 @@ python ../../tools/train_val.py --obmo --config config_OBMO.yaml --e
 ../../tools/kitti_eval/evaluate_object_3d_offline_ap40 ../../data/KITTI/object/training/label_2 ./output
 ```
 
+## Offline version
+
+We offer [an offline version](tools/offline_OBMO.py) to quickly test whether OBMO module benefits your model. And you can use it to choose super-parameters.
+
+``` sh
+python tools/offline_OBMO.py [pred] [gt]
+```
+
+We tested the offline version on models such as PatchNet, and the performance were greatly improved. 
+
+Note that the offline results do not necessarily represent the results after training with the OBMO module.
+
 ## Acknowlegment
 
 This code benefits from the excellent works: [PatchNet](https://github.com/xinzhuma/patchnet), [FPointNet](https://github.com/charlesq34/frustum-pointnets), [DORN](https://github.com/hufu6371/DORN) and [pseudo-LIDAR](https://github.com/mileyan/pseudo_lidar).
