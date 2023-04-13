@@ -120,7 +120,7 @@ def OBMO_offline(pred_path, calib_path, epsilons=[0.04, 0.02, 0.01], change_scor
 
                 iou = compute_iou_proj_with_2d(new_p, P2)
                 if iou > max_iou:
-                    iou = max_iou
+                    max_iou = iou
                     final_p = new_p
             
             if change_score:
