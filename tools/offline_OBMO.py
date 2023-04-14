@@ -114,7 +114,7 @@ def OBMO_offline(pred_path, calib_path, epsilons=[0.04, 0.02, 0.01], change_scor
                 new_p = p[1:].copy().astype(np.float32)
                 
                 # OBMO
-                new_p[12] = p[13].astype(np.float32) * (1 + e)
+                new_p[12] = p[13].astype(np.float32) + e
                 new_p[10] = new_p[12].astype(np.float32) * x_z_ratio
                 new_p[11] = new_p[12].astype(np.float32) * y_z_ratio
 
