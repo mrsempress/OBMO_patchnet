@@ -32,7 +32,7 @@ python ../../tools/train_val.py --obmo --config config_OBMO.yaml --e
 We offer [an offline version](tools/offline_OBMO.py) to quickly test whether OBMO module benefits your model. And you can use it to choose super-parameters.
 
 ``` sh
-python tools/offline_OBMO.py [pred] [gt]
+python tools/offline_OBMO.py [pred] [calib]
 ```
 
 We tested the offline version on models such as PatchNet, and the performance were greatly improved. 
