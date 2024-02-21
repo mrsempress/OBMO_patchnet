@@ -1,6 +1,6 @@
 # OBMO: One Bounding Box Multiple Objects for Monocular 3D Object Detection
 
-This project is based on our paper: **OBMO: One Bounding Box Multiple Objects for Monocular 3D Object Detection** and monocular 3D detectors: **Rethinking Pseudo-LiDAR Representation(PatchNet)** and **Pseudo-lidar from visual depth estimation: Bridging the gap in 3d object detection for autonomous driving(Pseudo-LiDAR)**.
+This [project](https://github.com/mrsempress/OBMO) is based on our paper [**OBMO: One Bounding Box Multiple Objects for Monocular 3D Object Detection**](https://ieeexplore.ieee.org/document/10325411) and monocular 3D detectors: **Rethinking Pseudo-LiDAR Representation(PatchNet)** and **Pseudo-lidar from visual depth estimation: Bridging the gap in 3d object detection for autonomous driving(Pseudo-LiDAR)**.
 
 ## Usage
 
